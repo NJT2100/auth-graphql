@@ -1,0 +1,5 @@
+{
+    "verbose": true,
+    "watch": ["index.js", "express.js", "./routes", "./controllers", "./models", "./config", "./schema", "./scripts"],
+    "exec": "webpack --config webpack.config.server.js && node ./dist/server.generated.js"
+}
